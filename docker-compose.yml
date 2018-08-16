@@ -1,7 +1,7 @@
 version: '3'
 services:
-  mysql:
-    image: 2.60.3-alpine
+  jenkins:
+    image: jenkins:2.60.3-alpine
     volumes:
       - ./jenkins:/var/jenkins_home
     ports: 
