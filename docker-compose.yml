@@ -1,0 +1,9 @@
+version: '3'
+services:
+  mysql:
+    image: 2.60.3-alpine
+    volumes:
+      - ./jenkins:/var/jenkins_home
+    ports: 
+      - 8080:8080
+      - 50000:50000
